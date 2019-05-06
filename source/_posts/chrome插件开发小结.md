@@ -80,5 +80,3 @@ categories: 笔记
 Refused to execute JavaScript URL because it violates the following Content Security Policy directive: "script-src 'self' chrome-extension://". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.
 ```
     搜了下是chrome插件关于CSP的协议的控制，chrome最新的插件不允许内联js运行，搜索代码发现是因为`href="javascript:;"`导致的，将`href="javascript:;"`去除即可
-
-
