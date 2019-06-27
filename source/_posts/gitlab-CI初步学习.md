@@ -1,8 +1,8 @@
 ---
 title: gitlab CI初步学习
 date: 2019-06-26 10:07:48
-tags:
-categories:
+tags: git
+categories: 笔记
 ---
 最近看了下关于devOps方面的内容，初步的了解了下自动化部署方面关于`gitlab`的`CI`处理流程，这里大概记录一下相关的东西。
 
